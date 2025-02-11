@@ -35,4 +35,11 @@ app.get('/api/nasa-media', async (req, res) => {
     res.json({ collection: { items } });
   } catch (error) {
     console.error('Error fetching data from NASA API:', error);
-    res.status(500).json({ error: 'Failed to fetch data from NASA API' })
+    res.status(500).json({ error: 'Failed to fetch data from NASA API' });
+  }
+});
+
+// Start the server
+app.listen(port, () => {
+  console.log(`Server running on http://localhost:${port}`);
+});
