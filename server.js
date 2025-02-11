@@ -14,6 +14,11 @@ app.use(cors());
 // NASA API endpoint
 const NASA_API_URL = 'https://images-api.nasa.gov/search';
 
+// Route for root URL
+app.get('/', (req, res) => {
+  res.send('Welcome to the NASA API Media Server!');
+});
+
 // Route to get NASA media based on a search query
 app.get('/api/nasa-media', async (req, res) => {
   const query = req.query.query;
@@ -30,11 +35,4 @@ app.get('/api/nasa-media', async (req, res) => {
     res.json({ collection: { items } });
   } catch (error) {
     console.error('Error fetching data from NASA API:', error);
-    res.status(500).json({ error: 'Failed to fetch data from NASA API' });
-  }
-});
-
-// Start the server
-app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
-});
+    res.status(500).json({ error: 'Failed to fetch data from NASA API' })
