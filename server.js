@@ -1,11 +1,12 @@
-// server.js
 const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-const port = 5000;
+
+// Use the environment variable PORT, or fallback to 5000 for local development
+const port = process.env.PORT || 5000; // Ensure the app listens on the port Heroku provides
 
 // Middleware
 app.use(cors());
