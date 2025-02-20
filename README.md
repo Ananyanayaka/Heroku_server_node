@@ -61,7 +61,7 @@ To interact with NASA's Image and  Library API, you'll need to obtain an API key
 If you want to run the backend server locally, use the following command:
 
 ```bash
-node index.js
+node server.js
 ```
 The server will be available on `http://localhost:5000` by default.
 
@@ -74,4 +74,4 @@ If you prefer to use the already deployed backend on Heroku, you can access it d
 - Thanks to NASA for providing the Open APIs!
 - Express.js for the backend framework.
 - Heroku for making deployment easy.
-```
+
