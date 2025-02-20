@@ -12,16 +12,16 @@ This project is a backend server built using Node.js and Express to fetch data f
 - Handles frontend requests and returns image/video data.
 - Simple and lightweight Express-based server.
 - CORS-enabled to allow frontend requests from different origins.
-
+```
 ## Project Structure
+
 ```
 /nasa-backend-library
-  ├── /node_modules        # Backend dependencies
-  ├── /src
-    ├── index.js          # Main server file to set up Express
-  ├── package.json         # Backend dependencies and metadata
-  ├── .env                 # Environment variables (for sensitive data like API key)
-  ├── README.md            # Backend documentation
+    ├── /node_modules       # Backend dependencies
+    ├── Server.js         # Main server file to set up Express
+    ├── package.json        # Backend dependencies and metadata
+    ├── .env                # Environment variables (for sensitive data like API key)
+    ├── README.md           # Backend documentation
 ```
 
 ## GitHub Repositories
@@ -76,5 +76,3 @@ If you prefer to use the already deployed backend on Heroku, you can access it d
 - Express.js for the backend framework.
 - Heroku for making deployment easy.
 ```
-
-This README file is for a **Node.js** backend that communicates with NASA's Image and Video Library API. You can use this as a guide for setting up the backend for your project, ensuring that your environment variables and API key are configured correctly.
