@@ -25,7 +25,7 @@ This project is a backend server built using Node.js and Express to fetch data f
 ```
 
 ## GitHub Repositories
-- Backend (Node.js API): [NASA Image and Video Library API Backend](https://github.com/Ananyanayaka/nasa-app-Backend-Library)
+- Backend (Node.js API): [NASA Image and Library API Backend](https://github.com/Ananyanayaka/nasa-app-Backend-Library)
 
 ## How to Use
 
