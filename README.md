@@ -1,15 +1,15 @@
-# Heroku_server_node
-Apologies for the confusion! Here's the **README.md** for the backend server interacting with the **NASA Image and Video Library API** instead of APOD:
+# NASA_Image_Library
+Apologies for the confusion! Here's the **README.md** for the backend server interacting with the **NASA Image and  Library API** instead of APOD:
 
 ```markdown
-# NASA Image and Video Library API - Backend
+# NASA Image and  Library API - Backend
 
 ## Overview
-This project is a backend server built using Node.js and Express to fetch data from NASA's Image and Video Library API and provide it to the frontend. The backend acts as an intermediary between the frontend and NASA's API, handling requests from the frontend and fetching the requested space-related images, videos, and metadata.
+This project is a backend server built using Node.js and Express to fetch data from NASA's Image and  Library API and provide it to the frontend. The backend acts as an intermediary between the frontend and NASA's API, handling requests from the frontend and fetching the requested space-related images, and metadata.
 
 ## Features
-- Fetches space images and videos from NASA's Image and Video Library API.
-- Handles frontend requests and returns image/video data.
+- Fetches space images  from NASA's Image  Library API.
+- Handles frontend requests and returns image data.
 - Simple and lightweight Express-based server.
 - CORS-enabled to allow frontend requests from different origins.
 ```
@@ -50,7 +50,7 @@ NASA_API_KEY=your-nasa-api-key
 ```
 
 ### How to Get a NASA API Key
-To interact with NASA's Image and Video Library API, you'll need to obtain an API key. Here's how you can get one:
+To interact with NASA's Image and  Library API, you'll need to obtain an API key. Here's how you can get one:
 
 1. Visit the [NASA API registration page](https://api.nasa.gov/).
 2. Click on the "Get API Key" button.
